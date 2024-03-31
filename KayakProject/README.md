@@ -56,8 +56,7 @@ The objective of this project is to recommend where people should plan their nex
 ## Data Sources
 - Use [Nominatim](https://nominatim.org/) to get the GPS coordinates of all the cities (no subscription required). Documentation: [Nominatim API](https://nominatim.org/release-docs/develop/api/Search/)
 - Use [OpenWeatherMap](https://openweathermap.org/appid) (you have to subscribe to get a free API key) and [One Call API](https://openweathermap.org/api/one-call-api) to get some information about the weather for the 35 cities and put it in a DataFrame.
-- Scrape Booking.com for hotel data. Since Booking Holdings doesn't have aggregated databases, it will be much faster to scrape data directly from booking.com.
-  Information scrape:
+- Scrape Booking.com for hotel data:
   - Hotel name
   - URL to its booking.com page
   - Coordinates (latitude and longitude)
